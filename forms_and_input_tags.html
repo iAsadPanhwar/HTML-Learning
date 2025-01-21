@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Form to apply for Job</h2>
+
+    <form action="post">
+        <div>
+            <label for="username">Enter Your Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+
+        </div>
+        <div>
+            <label for="Gender">Select Your Gender</label>
+            <input type="radio" name="gender" value="male" id = "male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id = "female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="Subscribe">
+            <label for="Subscribe">Subscribe To Our Newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Comment Section</label><br>
+            <textarea name="comment" id="comment" cols="50" rows="5" placeholder="Enter Your Comments Here..">
+                
+            </textarea>
+        </div>
+
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+                <option value="pineapple">Pine Apple</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+
+</html>
